@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantines Juncal</title>
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:ital,wght@0,400;1,300&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!--FONT AWESOME-->
+    <script src="https://kit.fontawesome.com/e0212b5ad4.js" crossorigin="anonymous"></script>
+
+    <!-- BOOTSTRAP 5-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- JAVASCRIPT-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+</head>
+
+<body>
+    <header class="fixed-top">
+      <nav class="nav navbar navbar-expand-lg navbar-light bg-light tex">
+          <div class="container-fluid">
+              <a href="index.html" class="navbar-brand scaling-item">
+                  <img src="imagenes/logotipo.png" alt="logo" class="nav__logo" height="50" width="170px">    
+              </a>   
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end fw-bolder" id="navbarNavDropdown">
+              <ul class="navbar-nav" >
+                <li class="nav-item me-4 scaling-item">
+                  <a class="nav-link text-dark" aria-current="page" href="./index.html">Inicio</a>
+                </li>
+                <li class="nav-item me-4 scaling-item">
+                  <a class="nav-link text-dark" href="./nosotros.html">¿Quiénes Somos?</a>
+                </li>
+                <li class="nav-item dropdown me-4">
+                  <a class="nav-link dropdown-toggle text-dark scaling-item" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Productos
+                  </a>
+                  <ul class="dropdown-menu nav__dropdown me-4" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item text-dark scaling-item" href="./plantines.html">Plantines</a></li>
+                    <li><a class="dropdown-item text-dark scaling-item" href="./accesorios.html">Accesorios</a></li>
+                  </ul>
+                <li class="nav-item me-4">
+                  <a class="nav-link text-dark scaling-item" href="./contacto.html">Contacto</a>
+                </li>
+                
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div class="hero-container container text-center text-white">
+          <h2>Excelencia en plantines y</h2>
+          <h2>accesorios de la mejor calidad</h2>
+        </div>
+    </div>
+
+    <section class="principal container p-1 mt-4 px-4">
+      <section id="nosotros" class="container my-3">
+        <div> 
+          <h2 class="text-center scaling-item my-4">¿Quiénes somos?</h2>
+        </div>
+        <div class="section-bar"></div>
+        <div class="row
+        flex-column flex-lg-row
+        my-4
+        ">
+          <div class="col-lg-5  ">
+            <img src="./imagenes/pexels-akil-mazumder-1072824.jpg" alt="Plantin" class="d-block w-100 rounded">
+          </div>
+          <div class="col-lg-7 ml-md-3 py-3 py-lg-0 align-self-center">
+            <p class="fs-5">
+              Somos un grupo de estudiantes de la carrera de Ingeniería agrónoma con la idea de 
+              difundir y promover el autocultivo de alimentos.
+            </p>
+            <p class="fs-5">
+              Nuestros plantines son sembrados en su totalidad por nosotros, asegurando el mejor cuidado
+              para los mismos, de manera de obtener los mejores resultados.
+            </p>
+          </div>
+        </div>
+  
+      </section>
+  
+      <section id="productos" class="container my-3">
+        <div> 
+          <h2 class="text-center scaling-item my-4">¿Qué ofrecemos?</h2>
+        </div>
+        <div class="section-bar"></div>
+        <div class="row
+        flex-column flex-lg-row
+        my-4">
+          <div class="col-lg-7 align-self-center">
+            <p class="fs-5">
+              Ofrecemos plantines de estación, de la mejor calidad del mercado asegurando un 
+              crecimiento rápido y fuerte.
+            </p>
+            <p class="fs-5">
+              Contamos adémas con accesorios que te acompañarán y serán de utilidad durante
+              todo el proceso.
+            </p>
+          </div>
+          <div class="col-lg-5 py-lg-0">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./imagenes/pexels-markus-spiske-113335.jpg" 
+                  class="d-block w-100 rounded" 
+                  alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./imagenes/pexels-photomix-company-1002703.jpg" 
+                  class="d-block w-100 rounded" 
+                  alt="...">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>        
+    </section>
+    </section>
+    
+
+  <footer class="container mt-5 pb-3">
+    
+    <div class="section-bar--footer"> </div>
+    
+    <div class="row">
+
+      <div class="col-lg-4 d-flex flex-column text-center text-lg-start mt-2 mt-lg-0">
+        <h3>Tienda online</h3>
+        <a href="./plantines.html" class="footer__link scaling-item">
+          <i class="fas fa-seedling me-1"></i> Plantines
+        </a>
+        <a href="./accesorios.html" class="footer__link scaling-item">
+          <i class="fas fa-shopping-bag me-1"></i> Accesorios
+        </a>
+        <a href="./nosotros.html" class="footer__link scaling-item">
+          <i class="fas fa-user-friends me-1"></i> Sobre nosotros
+        </a>
+      </div>
+
+      <div class="col-lg-4
+                  mt-3
+                  text-center 
+                  mt-4 mt-lg-3">
+        <img src="./imagenes/logotipo.png" class="logo" alt="">
+      </div>
+
+      <div class="col-lg-4 d-flex flex-column text-center text-lg-end mt-4 mt-lg-0">
+        <a href="./contacto.html" class="scaling-item"><h3>Contacto</h3></a>
+        
+        
+        <div>
+          <i class="me-2 fas fa-map-marker-alt text-dark"></i> Julio A. Roca 141 - Juncal, Santa Fe
+        </div>
+        
+        <div>
+          <i class="me-2 fas fa-phone"></i> 2477-669025
+        </div>
+        <div>
+          <i class="fas fa-envelope-open-text me-2"></i> plantinesjuncal@gmail.com
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

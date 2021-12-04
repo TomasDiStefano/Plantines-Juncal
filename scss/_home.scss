@@ -1,0 +1,22 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../imagenes/investment-g06e195e96_1920.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+    box-shadow: 0 0 .5rem 1rem rgb(0 0 0  / 15%);
+        &--text{
+            color: white;
+            font-size: 3rem;
+        }
+}
+
+.principal{
+    background-color: #c2db92;
+    border-radius: 10px;
+}

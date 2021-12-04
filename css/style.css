@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Common Styles */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  color: black;
+  font-family: "ubuntu", sans-serif;
+  background-image: linear-gradient(to right, #72ad05, #a2bd79d2);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 2.9rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: black;
+}
+
+p {
+  font-family: "ubuntu", sans-serif;
+  font-weight: 400;
+  color: black;
+}
+
+.section-bar {
+  width: 50%;
+  margin: -1rem auto 2rem auto;
+  border-top: solid black;
+}
+.section-bar--footer {
+  width: 50%;
+  margin: 1.5rem auto 1rem auto;
+  border-top: solid black;
+}
+
+.hover-item:hover {
+  transition-duration: 300ms;
+  transform: scale(1.05, 1.05);
+}
+
+.scaling-item:hover {
+  transition-duration: 0.2s;
+  transform: scale(1.04, 1.04);
+}
+
+/******NAV BAR*****/
+.nav {
+  background-image: linear-gradient(to right, #72ad05, #a2bd79d2);
+  font-family: "ubuntu", sans-serif;
+  font-size: 1.2rem;
+  box-shadow: 0 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  position: sticky;
+}
+.nav__dropdown {
+  background-color: #a2bd79;
+}
+
+/***FOOTER***/
+.footer--container {
+  margin-bottom: 2rem;
+}
+
+.logo {
+  height: 50;
+  width: 170px;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../imagenes/investment-g06e195e96_1920.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: right;
+  box-shadow: 0 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+.hero--text {
+  color: white;
+  font-size: 3rem;
+}
+
+.principal {
+  background-color: #c2db92;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
