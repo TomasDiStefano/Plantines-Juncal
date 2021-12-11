@@ -124,4 +124,46 @@ p {
   font-size: 3rem;
 }
 
+.card--button {
+  background: transparent;
+  border-color: #72ad05;
+  color: black;
+  transition: all 0.5s;
+}
+.card--button:hover {
+  background-color: #72ad05;
+  border-color: #72ad05;
+  color: black;
+}
+
+.contact__wrapper {
+  box-shadow: 0 0 0.9rem 0 white;
+}
+.contact__form {
+  background-color: #c2db92;
+}
+.contact__form input, .contact__form textarea {
+  width: 100%;
+  padding: 0.7rem;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 1px solid white;
+}
+.contact__form button {
+  width: 100%;
+  padding: 0.7rem;
+  background: transparent;
+  transition: all 0.8s;
+  border: 1px solid #72ad05;
+  border-radius: 10px;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  margin: 1rem;
+}
+.contact__form button:hover {
+  transform: scale(1.03, 1.03);
+  background-color: #72ad05;
+}
+
 /*# sourceMappingURL=style.css.map */

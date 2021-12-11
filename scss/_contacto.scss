@@ -1,0 +1,36 @@
+.contact{
+    &__wrapper{
+        box-shadow: 0 0 .9rem 0 rgb(255, 255, 255); 
+    }
+
+    &__form{
+        background-color: #c2db92;
+        
+        input,textarea{
+            width: 100%;
+            padding: .7rem;
+            border: none;
+            outline: none;
+            background: none;
+            border-bottom: 1px solid white;
+        }
+
+        button {
+            width: 100%;
+            padding: .7rem;
+            background: transparent;
+            transition: all 0.8s;
+            border: 1px solid #72ad05;
+            border-radius: 10px;
+            text-transform: uppercase;
+            padding: .5rem;
+            margin: 1rem;
+            &:hover{
+                transform: scale(1.03,1.03);
+                background-color: #72ad05;
+            }
+        }
+
+    }
+    
+}
