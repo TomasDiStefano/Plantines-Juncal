@@ -1,1 +1,142 @@
-<h1>NOSOTROS</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantines Juncal</title>
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:ital,wght@0,400;1,300&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!--FONT AWESOME-->
+    <script src="https://kit.fontawesome.com/e0212b5ad4.js" crossorigin="anonymous"></script>
+
+    <!-- BOOTSTRAP 5-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- JAVASCRIPT-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+
+</head>
+
+<body class="body--showUnderNav">
+    
+    <div id="principio"></div>
+
+    <header class="fixed-top">
+      <nav class="nav navbar navbar-expand-lg navbar-light bg-light tex">
+          <div class="container-fluid">
+              <a href="/" class="navbar-brand scaling-item">
+                  <img src="../imagenes/logotipo.png" alt="logo" class="nav__logo" height="50" width="170px">    
+              </a>   
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end fw-bolder" id="navbarNavDropdown">
+              <ul class="navbar-nav" >
+                <li class="nav-item me-4 scaling-item">
+                  <a class="nav-link text-dark" aria-current="page" href="/">Inicio</a>
+                </li>
+                <li class="nav-item me-4 scaling-item">
+                  <a class="nav-link text-dark" href="../nosotros">¿Quiénes Somos?</a>
+                </li>
+                <li class="nav-item dropdown me-4">
+                  <a class="nav-link dropdown-toggle text-dark scaling-item" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Productos
+                  </a>
+                  <ul class="dropdown-menu nav__dropdown me-4" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item text-dark scaling-item" href="../productos/plantines">Plantines</a></li>
+                    <li><a class="dropdown-item text-dark scaling-item" href="../productos/accesorios">Accesorios</a></li>
+                  </ul>
+                <li class="nav-item me-4">
+                  <a class="nav-link text-dark scaling-item" href="../contacto">Contacto</a>
+                </li>
+                
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </header>
+
+    <section class="container bg-section nosotros">
+        <div class="row mt-5 ps-3 mb-5">
+            <img src="../imagenes/pexels-artem-beliaikin-1675211.jpg" class="row col-lg-7 p-5 scaling-item_img pb-2" alt="">
+            <div class="row col-lg-5 px-4 py-2">
+                <h3 class="">Sobre Nosotros</h3>
+                <p class="">
+                    Plantines Juncal nace de la idea de una granja agroecológica localizada en Juncal a 7 km de la de la ruta 178, provincia de Santa Fe, Argentina. 
+                    Somos una grupo de estudiantes, trabajamos en la idea de una granja desde 2011 con el objetivo de crear un espacio de producción ecológica que respete los ciclos y espacios de nuestra tierra.
+                </p>
+                <p>
+                    Plantines Juncal trabaja en ir más allá de la producción. Para nosotros es importante que las personas interesadas en agroecología puedan conocer a través de la experiencia directa, cómo funciona la agricultura ecológica y los motivos que nos impulsan a hacer de esta, nuestra forma de vida y sustento.
+                </p>
+            </div>
+        </div>
+
+        <div class="section-bar"></div>
+
+        <div class="row ps-3 pb-4">
+            <div class="row col-lg-5 px-4 py-2">
+                <h3 class="">Nuestros ideales</h3>
+                <p class="">
+                    Creemos en un futuro sustentable, por eso somos agroecológicos. La agroecología es una forma de producción amigable con el medio ambiente que optimiza recursos disponibles para garantizar productividad, estabilidad y flexibilidad del sistema productivo.
+                </p>
+            </div>
+
+            <img src="../imagenes/pexels-michael-89267.jpg" class="row col-lg-7 p-5 py-3 scaling-item_img" alt="">
+        </div>
+    </section>
+
+    <footer class="container mt-5 pb-3">
+    
+        <div class="section-bar--footer"> </div>
+        
+        <div class="row">
+    
+          <div class="col-lg-4 d-flex flex-column text-center text-lg-start mt-2 mt-lg-0">
+            <h3>Tienda online</h3>
+            <a href="../productos/plantines" class="footer__link scaling-item">
+              <i class="fas fa-seedling me-1"></i> Plantines
+            </a>
+            <a href="../productos/accesorios" class="footer__link scaling-item">
+              <i class="fas fa-shopping-bag me-1"></i> Accesorios
+            </a>
+            <a href="#principio" class="footer__link scaling-item">
+              <i class="fas fa-user-friends me-1"></i> Sobre nosotros
+            </a>
+          </div>
+    
+          <div class="col-lg-4
+                      mt-3
+                      text-center 
+                      mt-4 mt-lg-3">
+            <img src="./imagenes/logotipo.png" class="logo" alt="">
+          </div>
+    
+          <div class="col-lg-4 d-flex flex-column text-center text-lg-end mt-4 mt-lg-0">
+            <a href="../contacto" class="scaling-item_img"><h3>Contacto</h3></a>
+            
+            
+            <div>
+              <i class="me-2 fas fa-map-marker-alt text-dark"></i> Julio A. Roca 141 - Juncal, Santa Fe
+            </div>
+            
+            <div>
+              <i class="me-2 fas fa-phone"></i> 2477-669025
+            </div>
+            <div>
+              <i class="fas fa-envelope-open-text me-2"></i> plantinesjuncal@gmail.com
+            </div>
+          </div>
+        </div>
+    </footer>
+</body>
+</html>

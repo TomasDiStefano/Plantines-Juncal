@@ -8,13 +8,14 @@
 html,
 body {
   height: 100%;
-}
-
-body {
   margin: 0;
   color: black;
   font-family: "ubuntu", sans-serif;
   background-image: linear-gradient(to right, #72ad05, #a2bd79d2);
+}
+
+.body--showUnderNav {
+  padding-top: 4rem;
 }
 
 html {
@@ -71,6 +72,17 @@ p {
   transition-duration: 0.2s;
   transform: scale(1.04, 1.04);
 }
+.scaling-item_img {
+  transition: transform 0.9s;
+}
+.scaling-item_img:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.bg-section {
+  background-color: #c2db92;
+  border-radius: 10px;
+}
 
 /******NAV BAR*****/
 .nav {
@@ -110,11 +122,6 @@ p {
 .hero--text {
   color: white;
   font-size: 3rem;
-}
-
-.principal {
-  background-color: #c2db92;
-  border-radius: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
