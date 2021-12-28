@@ -124,6 +124,35 @@ p {
   font-size: 3rem;
 }
 
+.subrayado {
+  font-size: 1.5rem;
+  position: relative;
+  text-decoration: none;
+  color: #72ad05;
+}
+.subrayado:hover {
+  color: #72ad05;
+}
+.subrayado:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -3px;
+  left: 0px;
+  height: 3px;
+  width: 100%;
+  background: #72ad05;
+  /* Animacion de derecha a izquierda*/
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform 0.6s ease-in-out;
+}
+.subrayado:hover:after {
+  transform-origin: left;
+  transform: scaleX(1);
+  transition: transform 0.6s ease-in;
+}
+
 .card {
   background-color: #e2e2e28e;
   border-radius: 10px;
