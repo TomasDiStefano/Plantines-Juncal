@@ -68,60 +68,118 @@
 
     <section class="container bg-section p-4">
 
+      <div class="row justufy-content-aroun">
         <div class="banner__products d-flex justify-content-center align-items-center my-3">
           <h1 class="text-center text-white scaling-item banner__products--title py-auto ">
             Nuestros plantines
           </h1>
         </div>
 
-        <div class="row justify-content-between text-center">
-            <div class="col-lg-3 card mb-5 scaling-item ">
+        <div class="dropdown col-4 movil-menu text-center">
+          <button
+            class="btn dropdown-toggle"
+            type="button"
+            id="dropdownProductCategory"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Categoria
+          </button>
+
+          <ul class="dropdown-menu dropdown-menu_style rounded-2">
+            <li>
+              <a class="dropdown-item" href="./index.html">Frutas</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="./index.html">Verduras</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="./index.html">Todos</a>
+            </li>           
+          </ul>
+        </div>
+        <div class="col-8 max-width-md movil-menu">
+          <select
+            class="form-select dropdown-menu_style mt-2 bg-transparent border-0 rounded-3"
+            aria-label="Default select example"
+          >
+            <option selected value="1" class="selector__item--bg">
+              Más Relevantes
+            </option>
+            <option value="2" class="selector__item--bg">Mayor Precio</option>
+            <option value="3" class="selector__item--bg">Menor Precio</option>
+          </select>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-3 mt-5 aside-menu">
+            <h3>Categorias</h3>
+            <ul class="product__list--style">
+              <li style="font-size: 1.5rem;"><a href="./index.html">Frutas</a></li>
+                <ul class="product__list--style">
+                  <li><a class="subcategory scaling-item" href="./index.html">Verano</a></li>    
+                  <li><a class="subcategory scaling-item" href="./index.html">Otoño</a></li>
+                  <li><a class="subcategory scaling-item" href="./index.html">Invierno</a></li>
+                  <li><a class="subcategory scaling-item" href="./index.html">Primavera</a></li>
+                </ul>
+              </li>
+
+              <li style="font-size: 1.5rem;"><a href="./index.html">Verduras</a></li>
+              <ul class="product__list--style">
+                <li><a class="subcategory scaling-item" href="./index.html">Verano</a></li>    
+                <li><a class="subcategory scaling-item" href="./index.html">Otoño</a></li>
+                <li><a class="subcategory scaling-item" href="./index.html">Invierno</a></li>
+                <li><a class="subcategory scaling-item" href="./index.html">Primavera</a></li>
+              </ul>
+            </ul>
+          </div>
+          <div class="col-lg-9 my-3 row justify-content-center mx-auto text-center">
+              <div class="card card-container mb-5 scaling-item ">
                 <img src="../../imagenes/plantines/pexels-arina-krasnikova-6316533.jpg" class="p-4 pb-2" style="width: 100%;" alt="">
-                <h2>Cebolla</h2>
-                <h4>4 x $150</h4>
+                <h4>Cebolla</h4>
+                <h5>4 x $150</h5>
                 <a class="btn mb-2 card--button " href="#" role="button">Agregar al carrito</a>
-            </div>
-            <div class="col-lg-3  card mb-5 scaling-item" >
+              </div>
+              <div class="card card-container mb-5 scaling-item ">
                 <img src="../../imagenes/plantines/pexels-arina-krasnikova-6316537.jpg" class="p-4 pb-2" style="width: 100%;" alt="">
-                <h2>Lechuga</h2>
-                <h4>4 x $150</h4>
+                <h4>Lechuga</h4>
+                <h5>4 x $150</h5>
                 <a class="btn mb-2 card--button " href="#" role="button">Agregar al carrito</a>
-            </div>
-            <div class="col-lg-3 card mb-5 scaling-item">
+              </div>
+              <div class="card card-container mb-5 scaling-item ">
                 <img src="../../imagenes/plantines/pexels-arina-krasnikova-6316544.jpg" class="p-4 pb-2" style="width: 100%;" alt="">
-                <h2>Calabaza</h2>
-                <h4>4 x $150</h4>
+                <h4>Calabaza</h4>
+                <h5>4 x $150</h5>
                 <a class="btn mb-2 card--button " href="#" role="button">Agregar al carrito</a>
-            </div>
-        </div>
-        <div class="row justify-content-between text-center">
-            <div class="col-lg-3 card mb-5 scaling-item">
+              </div>
+              <div class="card card-container mb-5 scaling-item ">
                 <img src="../../imagenes/plantines/pexels-daniel-dan-7543198.jpg" class="p-4 pb-2" style="width: 100%;" alt="">
-                <h2>Papa</h2>
-                <h4>4 x $150</h4>
+                <h4>Papa</h4>
+                <h5>4 x $150</h5>
                 <a class="btn mb-2 card--button " href="#" role="button">Agregar al carrito</a>
-            </div>
-            <div class="col-lg-3 card mb-5 scaling-item">
+              </div>
+              <div class="card card-container mb-5 scaling-item ">
                 <img src="../../imagenes/plantines/pexels-jeffry-surianto-8813516.jpg" class="p-4 pb-2" style="width: 100%;" alt="">
-                <h2>Tomate</h2>
-                <h4>4 x $150</h4>
+                <h4>Tomate</h4>
+                <h5>4 x $150</h5>
                 <a class="btn mb-2 card--button " href="#" role="button">Agregar al carrito</a>
-            </div>
-            <div class="col-lg-3 card mb-5 scaling-item">
+              </div>
+              <div class="card card-container mb-5 scaling-item ">
                 <img src="../../imagenes/plantines/pexels-shanu-azhicode-9741176.jpg" class="p-4 pb-2" style="width: 100%;" alt="">
-                <h2>Zanahoria</h2>
-                <h4>4 x $150</h4>
+                <h4>Zanahoria</h4>
+                <h5>4 x $150</h5>
                 <a class="btn mb-2 card--button " href="#" role="button">Agregar al carrito</a>
-            </div>
-        </div>
-        <div class="row justify-content-between text-center">
-            <div class="col-lg-3 card scaling-item">
+              </div>
+              <div class="card card-container mb-5 scaling-item ">
                 <img src="../../imagenes/plantines/pexels-valeria-burdyka-3029520.jpg" class="p-4 pb-2" style="width: 100%;" alt="">
-                <h2>Palta</h2>
-                <h4>4 x $150</h4>
+                <h4>Palta</h4>
+                <h5>4 x $150</h5>
                 <a class="btn mb-2 card--button " href="#" role="button">Agregar al carrito</a>
-            </div>
+              </div>
+
+          </div>
+          
         </div>
+      </div>
     </section>
 
 
